@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="create-poem">
-          <input
-            type="text"
-            placeholder="Enter topic of flower poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="button-comply" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="create-poem">
+            <input
+              type="text"
+              placeholder="Enter any name of a Flower"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="button-comply" />
+          </form>
+          <div class="hint">i.e: Orchid, Rose, Bluebell, Tulip</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
